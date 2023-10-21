@@ -20,3 +20,6 @@ final productServiceProvider =
     StateNotifierProvider<ProductNotifier, List<Products>>(
   (ref) => ProductNotifier(),
 );
+
+final imagePathProvider = StateProvider<String>((ref) => '');
+final imageNameProvider = StateProvider<String>((ref) => '');
